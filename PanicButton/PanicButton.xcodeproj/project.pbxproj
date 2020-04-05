@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072FC7181ACD71C6005D0ED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7171ACD71C6005D0ED7 /* main.m */; };
+		072FC71B1ACD71C6005D0ED7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC71A1ACD71C6005D0ED7 /* AppDelegate.m */; };
+		072FC71E1ACD71C6005D0ED7 /* PanicButton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 072FC71C1ACD71C6005D0ED7 /* PanicButton.xcdatamodeld */; };
+		072FC7211ACD71C6005D0ED7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7201ACD71C6005D0ED7 /* ViewController.m */; };
+		072FC7261ACD71C6005D0ED7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072FC7251ACD71C6005D0ED7 /* Images.xcassets */; };
+		072FC7351ACD71C6005D0ED7 /* PanicButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7341ACD71C6005D0ED7 /* PanicButtonTests.m */; };
+		072FC76A1ACD790C005D0ED7 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7421ACD790C005D0ED7 /* Alert.m */; };
+		072FC76B1ACD790C005D0ED7 /* TApplicationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7451ACD790C005D0ED7 /* TApplicationException.m */; };
+		072FC76C1ACD790C005D0ED7 /* TException.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7471ACD790C005D0ED7 /* TException.m */; };
+		072FC76D1ACD790C005D0ED7 /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC74C1ACD790C005D0ED7 /* TSharedProcessorFactory.m */; };
+		072FC76E1ACD790C005D0ED7 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7501ACD790C005D0ED7 /* TBinaryProtocol.m */; };
+		072FC76F1ACD790C005D0ED7 /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7531ACD790C005D0ED7 /* TProtocolException.m */; };
+		072FC7701ACD790C005D0ED7 /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7561ACD790C005D0ED7 /* TProtocolUtil.m */; };
+		072FC7711ACD790C005D0ED7 /* TSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7591ACD790C005D0ED7 /* TSocketServer.m */; };
+		072FC7721ACD790C005D0ED7 /* TFramedTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC75C1ACD790C005D0ED7 /* TFramedTransport.m */; };
+		072FC7731ACD790C005D0ED7 /* THTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC75E1ACD790C005D0ED7 /* THTTPClient.m */; };
+		072FC7741ACD790C005D0ED7 /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7601ACD790C005D0ED7 /* TMemoryBuffer.m */; };
+		072FC7751ACD790C005D0ED7 /* TNSFileHandleTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7621ACD790C005D0ED7 /* TNSFileHandleTransport.m */; };
+		072FC7761ACD790C005D0ED7 /* TNSStreamTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7641ACD790C005D0ED7 /* TNSStreamTransport.m */; };
+		072FC7771ACD790C005D0ED7 /* TSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7661ACD790C005D0ED7 /* TSocketClient.m */; };
+		072FC7781ACD790C005D0ED7 /* TTransportException.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7691ACD790C005D0ED7 /* TTransportException.m */; };
+		072FC77B1ACD797A005D0ED7 /* SynchroService.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC77A1ACD797A005D0ED7 /* SynchroService.m */; };
+		072FC77F1ACD8921005D0ED7 /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC77E1ACD8921005D0ED7 /* UUID.m */; };
+		072FC7831ACDADD5005D0ED7 /* FillBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7821ACDADD5005D0ED7 /* FillBase.m */; };
+		072FC7871ACED698005D0ED7 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7861ACED698005D0ED7 /* City.m */; };
+		072FC78A1ACF1266005D0ED7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7891ACF1266005D0ED7 /* LoginViewController.m */; };
+		072FC78D1AD2C621005D0ED7 /* CitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC78C1AD2C621005D0ED7 /* CitiesViewController.m */; };
+		072FC7941AD2CC09005D0ED7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 072FC7961AD2CC09005D0ED7 /* Localizable.strings */; };
+		072FC79A1AD2DED9005D0ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072FC7981AD2DED9005D0ED7 /* Main.storyboard */; };
+		072FC79E1AD58601005D0ED7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC79D1AD58601005D0ED7 /* Reachability.m */; };
+		072FC7A11AD5882F005D0ED7 /* ConnectionUnreachableException.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7A01AD5882F005D0ED7 /* ConnectionUnreachableException.m */; };
+		072FC7A41AD5992C005D0ED7 /* WrongCredentialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072FC7A31AD5992C005D0ED7 /* WrongCredentialsViewController.m */; };
+		6BC7216981CEED5280157D5B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6D5960D7744961277D0A3F /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		072FC72F1ACD71C6005D0ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 072FC70A1ACD71C6005D0ED7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 072FC7111ACD71C6005D0ED7;
+			remoteInfo = PanicButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072FC7121ACD71C6005D0ED7 /* PanicButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanicButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		072FC7161ACD71C6005D0ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072FC7171ACD71C6005D0ED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		072FC7191ACD71C6005D0ED7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		072FC71A1ACD71C6005D0ED7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		072FC71D1ACD71C6005D0ED7 /* PanicButton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PanicButton.xcdatamodel; sourceTree = "<group>"; };
+		072FC71F1ACD71C6005D0ED7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		072FC7201ACD71C6005D0ED7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		072FC7251ACD71C6005D0ED7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		072FC72E1ACD71C6005D0ED7 /* PanicButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanicButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		072FC7331ACD71C6005D0ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072FC7341ACD71C6005D0ED7 /* PanicButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanicButtonTests.m; sourceTree = "<group>"; };
+		072FC7411ACD790C005D0ED7 /* Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
+		072FC7421ACD790C005D0ED7 /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
+		072FC7441ACD790C005D0ED7 /* TApplicationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TApplicationException.h; sourceTree = "<group>"; };
+		072FC7451ACD790C005D0ED7 /* TApplicationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TApplicationException.m; sourceTree = "<group>"; };
+		072FC7461ACD790C005D0ED7 /* TException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TException.h; sourceTree = "<group>"; };
+		072FC7471ACD790C005D0ED7 /* TException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TException.m; sourceTree = "<group>"; };
+		072FC7481ACD790C005D0ED7 /* TObjective-C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TObjective-C.h"; sourceTree = "<group>"; };
+		072FC7491ACD790C005D0ED7 /* TProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessor.h; sourceTree = "<group>"; };
+		072FC74A1ACD790C005D0ED7 /* TProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessorFactory.h; sourceTree = "<group>"; };
+		072FC74B1ACD790C005D0ED7 /* TSharedProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSharedProcessorFactory.h; sourceTree = "<group>"; };
+		072FC74C1ACD790C005D0ED7 /* TSharedProcessorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSharedProcessorFactory.m; sourceTree = "<group>"; };
+		072FC74E1ACD790C005D0ED7 /* TBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBase.h; sourceTree = "<group>"; };
+		072FC74F1ACD790C005D0ED7 /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
+		072FC7501ACD790C005D0ED7 /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
+		072FC7511ACD790C005D0ED7 /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
+		072FC7521ACD790C005D0ED7 /* TProtocolException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolException.h; sourceTree = "<group>"; };
+		072FC7531ACD790C005D0ED7 /* TProtocolException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolException.m; sourceTree = "<group>"; };
+		072FC7541ACD790C005D0ED7 /* TProtocolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolFactory.h; sourceTree = "<group>"; };
+		072FC7551ACD790C005D0ED7 /* TProtocolUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolUtil.h; sourceTree = "<group>"; };
+		072FC7561ACD790C005D0ED7 /* TProtocolUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolUtil.m; sourceTree = "<group>"; };
+		072FC7581ACD790C005D0ED7 /* TSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketServer.h; sourceTree = "<group>"; };
+		072FC7591ACD790C005D0ED7 /* TSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketServer.m; sourceTree = "<group>"; };
+		072FC75B1ACD790C005D0ED7 /* TFramedTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFramedTransport.h; sourceTree = "<group>"; };
+		072FC75C1ACD790C005D0ED7 /* TFramedTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFramedTransport.m; sourceTree = "<group>"; };
+		072FC75D1ACD790C005D0ED7 /* THTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTTPClient.h; sourceTree = "<group>"; };
+		072FC75E1ACD790C005D0ED7 /* THTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTTPClient.m; sourceTree = "<group>"; };
+		072FC75F1ACD790C005D0ED7 /* TMemoryBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMemoryBuffer.h; sourceTree = "<group>"; };
+		072FC7601ACD790C005D0ED7 /* TMemoryBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMemoryBuffer.m; sourceTree = "<group>"; };
+		072FC7611ACD790C005D0ED7 /* TNSFileHandleTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSFileHandleTransport.h; sourceTree = "<group>"; };
+		072FC7621ACD790C005D0ED7 /* TNSFileHandleTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSFileHandleTransport.m; sourceTree = "<group>"; };
+		072FC7631ACD790C005D0ED7 /* TNSStreamTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSStreamTransport.h; sourceTree = "<group>"; };
+		072FC7641ACD790C005D0ED7 /* TNSStreamTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSStreamTransport.m; sourceTree = "<group>"; };
+		072FC7651ACD790C005D0ED7 /* TSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketClient.h; sourceTree = "<group>"; };
+		072FC7661ACD790C005D0ED7 /* TSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketClient.m; sourceTree = "<group>"; };
+		072FC7671ACD790C005D0ED7 /* TTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransport.h; sourceTree = "<group>"; };
+		072FC7681ACD790C005D0ED7 /* TTransportException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransportException.h; sourceTree = "<group>"; };
+		072FC7691ACD790C005D0ED7 /* TTransportException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTransportException.m; sourceTree = "<group>"; };
+		072FC7791ACD797A005D0ED7 /* SynchroService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchroService.h; sourceTree = "<group>"; };
+		072FC77A1ACD797A005D0ED7 /* SynchroService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchroService.m; sourceTree = "<group>"; };
+		072FC77D1ACD8921005D0ED7 /* UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
+		072FC77E1ACD8921005D0ED7 /* UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUID.m; sourceTree = "<group>"; };
+		072FC7801ACD8955005D0ED7 /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		072FC7811ACDADD5005D0ED7 /* FillBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FillBase.h; sourceTree = "<group>"; };
+		072FC7821ACDADD5005D0ED7 /* FillBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FillBase.m; sourceTree = "<group>"; };
+		072FC7851ACED698005D0ED7 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		072FC7861ACED698005D0ED7 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		072FC7881ACF1266005D0ED7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		072FC7891ACF1266005D0ED7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		072FC78B1AD2C621005D0ED7 /* CitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesViewController.h; sourceTree = "<group>"; };
+		072FC78C1AD2C621005D0ED7 /* CitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesViewController.m; sourceTree = "<group>"; };
+		072FC7951AD2CC09005D0ED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		072FC7971AD2CC2F005D0ED7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		072FC7991AD2DED9005D0ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PanicButton/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		072FC79C1AD58601005D0ED7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		072FC79D1AD58601005D0ED7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		072FC79F1AD5882F005D0ED7 /* ConnectionUnreachableException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionUnreachableException.h; sourceTree = "<group>"; };
+		072FC7A01AD5882F005D0ED7 /* ConnectionUnreachableException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionUnreachableException.m; sourceTree = "<group>"; };
+		072FC7A21AD5992C005D0ED7 /* WrongCredentialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrongCredentialsViewController.h; sourceTree = "<group>"; };
+		072FC7A31AD5992C005D0ED7 /* WrongCredentialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrongCredentialsViewController.m; sourceTree = "<group>"; };
+		A9A5B50EB307FDFFE451C2B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AEFE97B6E46FF3473D1F334B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CA6D5960D7744961277D0A3F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		072FC70F1ACD71C6005D0ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC7216981CEED5280157D5B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072FC72B1ACD71C6005D0ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072FC7091ACD71C5005D0ED7 = {
+			isa = PBXGroup;
+			children = (
+				072FC7141ACD71C6005D0ED7 /* PanicButton */,
+				072FC7311ACD71C6005D0ED7 /* PanicButtonTests */,
+				072FC7131ACD71C6005D0ED7 /* Products */,
+				130F18736244F005071CEB58 /* Pods */,
+				791CC150B40A90A948E92ECD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		072FC7131ACD71C6005D0ED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				072FC7121ACD71C6005D0ED7 /* PanicButton.app */,
+				072FC72E1ACD71C6005D0ED7 /* PanicButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		072FC7141ACD71C6005D0ED7 /* PanicButton */ = {
+			isa = PBXGroup;
+			children = (
+				072FC7841ACED67D005D0ED7 /* Model */,
+				072FC77C1ACD8921005D0ED7 /* Util */,
+				072FC73E1ACD790C005D0ED7 /* Network */,
+				072FC7191ACD71C6005D0ED7 /* AppDelegate.h */,
+				072FC71A1ACD71C6005D0ED7 /* AppDelegate.m */,
+				072FC71F1ACD71C6005D0ED7 /* ViewController.h */,
+				072FC7201ACD71C6005D0ED7 /* ViewController.m */,
+				072FC7981AD2DED9005D0ED7 /* Main.storyboard */,
+				072FC7251ACD71C6005D0ED7 /* Images.xcassets */,
+				072FC71C1ACD71C6005D0ED7 /* PanicButton.xcdatamodeld */,
+				072FC7151ACD71C6005D0ED7 /* Supporting Files */,
+				072FC7881ACF1266005D0ED7 /* LoginViewController.h */,
+				072FC7891ACF1266005D0ED7 /* LoginViewController.m */,
+				072FC78B1AD2C621005D0ED7 /* CitiesViewController.h */,
+				072FC78C1AD2C621005D0ED7 /* CitiesViewController.m */,
+				072FC7A21AD5992C005D0ED7 /* WrongCredentialsViewController.h */,
+				072FC7A31AD5992C005D0ED7 /* WrongCredentialsViewController.m */,
+			);
+			path = PanicButton;
+			sourceTree = "<group>";
+		};
+		072FC7151ACD71C6005D0ED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				072FC7161ACD71C6005D0ED7 /* Info.plist */,
+				072FC7171ACD71C6005D0ED7 /* main.m */,
+				072FC7961AD2CC09005D0ED7 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		072FC7311ACD71C6005D0ED7 /* PanicButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				072FC7341ACD71C6005D0ED7 /* PanicButtonTests.m */,
+				072FC7321ACD71C6005D0ED7 /* Supporting Files */,
+			);
+			path = PanicButtonTests;
+			sourceTree = "<group>";
+		};
+		072FC7321ACD71C6005D0ED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				072FC7331ACD71C6005D0ED7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		072FC73E1ACD790C005D0ED7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				072FC79B1AD58601005D0ED7 /* Reachability */,
+				072FC73F1ACD790C005D0ED7 /* Thrift */,
+				072FC7791ACD797A005D0ED7 /* SynchroService.h */,
+				072FC77A1ACD797A005D0ED7 /* SynchroService.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		072FC73F1ACD790C005D0ED7 /* Thrift */ = {
+			isa = PBXGroup;
+			children = (
+				072FC7401ACD790C005D0ED7 /* Generated */,
+				072FC7431ACD790C005D0ED7 /* Library */,
+			);
+			path = Thrift;
+			sourceTree = "<group>";
+		};
+		072FC7401ACD790C005D0ED7 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				072FC7411ACD790C005D0ED7 /* Alert.h */,
+				072FC7421ACD790C005D0ED7 /* Alert.m */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		072FC7431ACD790C005D0ED7 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				072FC7441ACD790C005D0ED7 /* TApplicationException.h */,
+				072FC7451ACD790C005D0ED7 /* TApplicationException.m */,
+				072FC7461ACD790C005D0ED7 /* TException.h */,
+				072FC7471ACD790C005D0ED7 /* TException.m */,
+				072FC7481ACD790C005D0ED7 /* TObjective-C.h */,
+				072FC7491ACD790C005D0ED7 /* TProcessor.h */,
+				072FC74A1ACD790C005D0ED7 /* TProcessorFactory.h */,
+				072FC74B1ACD790C005D0ED7 /* TSharedProcessorFactory.h */,
+				072FC74C1ACD790C005D0ED7 /* TSharedProcessorFactory.m */,
+				072FC74D1ACD790C005D0ED7 /* protocol */,
+				072FC7571ACD790C005D0ED7 /* server */,
+				072FC75A1ACD790C005D0ED7 /* transport */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		072FC74D1ACD790C005D0ED7 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				072FC74E1ACD790C005D0ED7 /* TBase.h */,
+				072FC74F1ACD790C005D0ED7 /* TBinaryProtocol.h */,
+				072FC7501ACD790C005D0ED7 /* TBinaryProtocol.m */,
+				072FC7511ACD790C005D0ED7 /* TProtocol.h */,
+				072FC7521ACD790C005D0ED7 /* TProtocolException.h */,
+				072FC7531ACD790C005D0ED7 /* TProtocolException.m */,
+				072FC7541ACD790C005D0ED7 /* TProtocolFactory.h */,
+				072FC7551ACD790C005D0ED7 /* TProtocolUtil.h */,
+				072FC7561ACD790C005D0ED7 /* TProtocolUtil.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		072FC7571ACD790C005D0ED7 /* server */ = {
+			isa = PBXGroup;
+			children = (
+				072FC7581ACD790C005D0ED7 /* TSocketServer.h */,
+				072FC7591ACD790C005D0ED7 /* TSocketServer.m */,
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		072FC75A1ACD790C005D0ED7 /* transport */ = {
+			isa = PBXGroup;
+			children = (
+				072FC75B1ACD790C005D0ED7 /* TFramedTransport.h */,
+				072FC75C1ACD790C005D0ED7 /* TFramedTransport.m */,
+				072FC75D1ACD790C005D0ED7 /* THTTPClient.h */,
+				072FC75E1ACD790C005D0ED7 /* THTTPClient.m */,
+				072FC75F1ACD790C005D0ED7 /* TMemoryBuffer.h */,
+				072FC7601ACD790C005D0ED7 /* TMemoryBuffer.m */,
+				072FC7611ACD790C005D0ED7 /* TNSFileHandleTransport.h */,
+				072FC7621ACD790C005D0ED7 /* TNSFileHandleTransport.m */,
+				072FC7631ACD790C005D0ED7 /* TNSStreamTransport.h */,
+				072FC7641ACD790C005D0ED7 /* TNSStreamTransport.m */,
+				072FC7651ACD790C005D0ED7 /* TSocketClient.h */,
+				072FC7661ACD790C005D0ED7 /* TSocketClient.m */,
+				072FC7671ACD790C005D0ED7 /* TTransport.h */,
+				072FC7681ACD790C005D0ED7 /* TTransportException.h */,
+				072FC7691ACD790C005D0ED7 /* TTransportException.m */,
+			);
+			path = transport;
+			sourceTree = "<group>";
+		};
+		072FC77C1ACD8921005D0ED7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				072FC77D1ACD8921005D0ED7 /* UUID.h */,
+				072FC77E1ACD8921005D0ED7 /* UUID.m */,
+				072FC7801ACD8955005D0ED7 /* Const.h */,
+				072FC7811ACDADD5005D0ED7 /* FillBase.h */,
+				072FC7821ACDADD5005D0ED7 /* FillBase.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		072FC7841ACED67D005D0ED7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				072FC7851ACED698005D0ED7 /* City.h */,
+				072FC7861ACED698005D0ED7 /* City.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		072FC79B1AD58601005D0ED7 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				072FC79C1AD58601005D0ED7 /* Reachability.h */,
+				072FC79D1AD58601005D0ED7 /* Reachability.m */,
+				072FC79F1AD5882F005D0ED7 /* ConnectionUnreachableException.h */,
+				072FC7A01AD5882F005D0ED7 /* ConnectionUnreachableException.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		130F18736244F005071CEB58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9A5B50EB307FDFFE451C2B3 /* Pods.debug.xcconfig */,
+				AEFE97B6E46FF3473D1F334B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		791CC150B40A90A948E92ECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA6D5960D7744961277D0A3F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		072FC7111ACD71C6005D0ED7 /* PanicButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072FC7381ACD71C6005D0ED7 /* Build configuration list for PBXNativeTarget "PanicButton" */;
+			buildPhases = (
+				555D4B0938F1F00B30DF0582 /* Check Pods Manifest.lock */,
+				072FC70E1ACD71C6005D0ED7 /* Sources */,
+				072FC70F1ACD71C6005D0ED7 /* Frameworks */,
+				072FC7101ACD71C6005D0ED7 /* Resources */,
+				6B39D303E4D330EC35DB27E7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanicButton;
+			productName = PanicButton;
+			productReference = 072FC7121ACD71C6005D0ED7 /* PanicButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		072FC72D1ACD71C6005D0ED7 /* PanicButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072FC73B1ACD71C6005D0ED7 /* Build configuration list for PBXNativeTarget "PanicButtonTests" */;
+			buildPhases = (
+				072FC72A1ACD71C6005D0ED7 /* Sources */,
+				072FC72B1ACD71C6005D0ED7 /* Frameworks */,
+				072FC72C1ACD71C6005D0ED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072FC7301ACD71C6005D0ED7 /* PBXTargetDependency */,
+			);
+			name = PanicButtonTests;
+			productName = PanicButtonTests;
+			productReference = 072FC72E1ACD71C6005D0ED7 /* PanicButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		072FC70A1ACD71C6005D0ED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = BACCA;
+				TargetAttributes = {
+					072FC7111ACD71C6005D0ED7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					072FC72D1ACD71C6005D0ED7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 072FC7111ACD71C6005D0ED7;
+					};
+				};
+			};
+			buildConfigurationList = 072FC70D1ACD71C6005D0ED7 /* Build configuration list for PBXProject "PanicButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+				Base,
+			);
+			mainGroup = 072FC7091ACD71C5005D0ED7;
+			productRefGroup = 072FC7131ACD71C6005D0ED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				072FC7111ACD71C6005D0ED7 /* PanicButton */,
+				072FC72D1ACD71C6005D0ED7 /* PanicButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		072FC7101ACD71C6005D0ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072FC79A1AD2DED9005D0ED7 /* Main.storyboard in Resources */,
+				072FC7941AD2CC09005D0ED7 /* Localizable.strings in Resources */,
+				072FC7261ACD71C6005D0ED7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072FC72C1ACD71C6005D0ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		555D4B0938F1F00B30DF0582 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B39D303E4D330EC35DB27E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		072FC70E1ACD71C6005D0ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072FC79E1AD58601005D0ED7 /* Reachability.m in Sources */,
+				072FC71B1ACD71C6005D0ED7 /* AppDelegate.m in Sources */,
+				072FC7831ACDADD5005D0ED7 /* FillBase.m in Sources */,
+				072FC7751ACD790C005D0ED7 /* TNSFileHandleTransport.m in Sources */,
+				072FC76C1ACD790C005D0ED7 /* TException.m in Sources */,
+				072FC7721ACD790C005D0ED7 /* TFramedTransport.m in Sources */,
+				072FC78D1AD2C621005D0ED7 /* CitiesViewController.m in Sources */,
+				072FC7711ACD790C005D0ED7 /* TSocketServer.m in Sources */,
+				072FC76E1ACD790C005D0ED7 /* TBinaryProtocol.m in Sources */,
+				072FC7731ACD790C005D0ED7 /* THTTPClient.m in Sources */,
+				072FC78A1ACF1266005D0ED7 /* LoginViewController.m in Sources */,
+				072FC76A1ACD790C005D0ED7 /* Alert.m in Sources */,
+				072FC76F1ACD790C005D0ED7 /* TProtocolException.m in Sources */,
+				072FC77B1ACD797A005D0ED7 /* SynchroService.m in Sources */,
+				072FC7A41AD5992C005D0ED7 /* WrongCredentialsViewController.m in Sources */,
+				072FC7181ACD71C6005D0ED7 /* main.m in Sources */,
+				072FC7771ACD790C005D0ED7 /* TSocketClient.m in Sources */,
+				072FC7A11AD5882F005D0ED7 /* ConnectionUnreachableException.m in Sources */,
+				072FC76B1ACD790C005D0ED7 /* TApplicationException.m in Sources */,
+				072FC7781ACD790C005D0ED7 /* TTransportException.m in Sources */,
+				072FC7211ACD71C6005D0ED7 /* ViewController.m in Sources */,
+				072FC71E1ACD71C6005D0ED7 /* PanicButton.xcdatamodeld in Sources */,
+				072FC7741ACD790C005D0ED7 /* TMemoryBuffer.m in Sources */,
+				072FC77F1ACD8921005D0ED7 /* UUID.m in Sources */,
+				072FC7761ACD790C005D0ED7 /* TNSStreamTransport.m in Sources */,
+				072FC7871ACED698005D0ED7 /* City.m in Sources */,
+				072FC76D1ACD790C005D0ED7 /* TSharedProcessorFactory.m in Sources */,
+				072FC7701ACD790C005D0ED7 /* TProtocolUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072FC72A1ACD71C6005D0ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072FC7351ACD71C6005D0ED7 /* PanicButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		072FC7301ACD71C6005D0ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 072FC7111ACD71C6005D0ED7 /* PanicButton */;
+			targetProxy = 072FC72F1ACD71C6005D0ED7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		072FC7961AD2CC09005D0ED7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072FC7951AD2CC09005D0ED7 /* en */,
+				072FC7971AD2CC2F005D0ED7 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		072FC7981AD2DED9005D0ED7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072FC7991AD2DED9005D0ED7 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		072FC7361ACD71C6005D0ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		072FC7371ACD71C6005D0ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		072FC7391ACD71C6005D0ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A5B50EB307FDFFE451C2B3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PanicButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		072FC73A1ACD71C6005D0ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEFE97B6E46FF3473D1F334B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PanicButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		072FC73C1ACD71C6005D0ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PanicButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanicButton.app/PanicButton";
+			};
+			name = Debug;
+		};
+		072FC73D1ACD71C6005D0ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PanicButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanicButton.app/PanicButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		072FC70D1ACD71C6005D0ED7 /* Build configuration list for PBXProject "PanicButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072FC7361ACD71C6005D0ED7 /* Debug */,
+				072FC7371ACD71C6005D0ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072FC7381ACD71C6005D0ED7 /* Build configuration list for PBXNativeTarget "PanicButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072FC7391ACD71C6005D0ED7 /* Debug */,
+				072FC73A1ACD71C6005D0ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072FC73B1ACD71C6005D0ED7 /* Build configuration list for PBXNativeTarget "PanicButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072FC73C1ACD71C6005D0ED7 /* Debug */,
+				072FC73D1ACD71C6005D0ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		072FC71C1ACD71C6005D0ED7 /* PanicButton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				072FC71D1ACD71C6005D0ED7 /* PanicButton.xcdatamodel */,
+			);
+			currentVersion = 072FC71D1ACD71C6005D0ED7 /* PanicButton.xcdatamodel */;
+			path = PanicButton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 072FC70A1ACD71C6005D0ED7 /* Project object */;
+}

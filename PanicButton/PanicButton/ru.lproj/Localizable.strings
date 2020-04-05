@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  PanicButton
+
+  Created by Елена Грачева on 06.04.15.
+  Copyright (c) 2015 BACCA. All rights reserved.
+*/
+
+"LOCALE"="ru";
+"ENTER_PHONE" = "Введите Ваш номер телефона";
+"CODE" = "код";
+"PHONE_NUMBER" = "номер телефона";
+"ID" = "Введите Ваш ID";
+"CONTINUE" = "Продолжить";
+"AUTHENTICATION_FAILED" = "Введенные Вами данные неверны!";
+"OUR_CONTACTS" = "Для уточнения информации свяжитесь с оператором по телефону +7 495 580 2688 или отправьте письмо на почту alert@eshc.com";
+"QUIT" = "Закрыть";
+"CHOOSE_COUNTRY" = "Выберите страну";
+"ACCEPT" = "Согласен";
+"DECLINE" = "Не согласен";
+"THREE_SECONDS" = "Удерживайте 3 секунды";
+"TWO_SECONDS" = "Удерживайте 2 секунды";
+"ONE_SECOND" = "Удерживайте 1 секунду";
+"MESSAGE_SENT" = "Сообщение отправлено";
+"CONNECTION_FAILED" = "Проверьте подключение к сети и попробуйте еще раз";
+"RETRY" = "Повторить";
+"CHECK_GEOLOCATION" = "Пожалуйста, включите геолокацию и повторите попытку";
+"UPDATE" = "Обновить";
+"VERSION_UNSUPPORTED" = "Доступна новая версия приложения.";
+"VERSION_DEPRECATED" = "Версия приложения устарела.";
+"UNDEFINED_EXCEPTION" = "Не удалось провести операцию. Пожалуйста, попробуйте позже.";

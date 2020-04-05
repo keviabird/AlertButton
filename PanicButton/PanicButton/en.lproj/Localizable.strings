@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  PanicButton
+
+  Created by Елена Грачева on 06.04.15.
+  Copyright (c) 2015 BACCA. All rights reserved.
+*/
+
+"LOCALE"="en";
+"ENTER_PHONE" = "Enter your Telephone Number";
+"CODE" = "Code";
+"PHONE_NUMBER" = "Your Telephone Number";
+"ID" = "Your ID";
+"CONTINUE" = "Continue";
+"AUTHENTICATION_FAILED" = "The entered combination of Telephone number and ID is incorrect.";
+"OUR_CONTACTS" = "For more precise information pls contact +7 495 580 2688 or send an email to alert@eshc.com";
+"QUIT" = "Quit";
+"CHOOSE_COUNTRY" = "Choose your Country";
+"ACCEPT" = "Accept";
+"DECLINE" = "Decline";
+"THREE_SECONDS" = "HOLD TO PANIC";
+"TWO_SECONDS" = "HOLD TO PANIC";
+"ONE_SECOND" = "HOLD TO PANIC";
+"MESSAGE_SENT" = "The Alert has been sent";
+"CONNECTION_FAILED" = "Please, Check your Internet connection and try again!";
+"RETRY" = "Ok";
+"CHECK_GEOLOCATION" = "Please, Check your geolocation and try again!";
+"UPDATE" = "Update";
+"VERSION_UNSUPPORTED" = "New version of the application is available.";
+"VERSION_DEPRECATED" = "The application version is outdated.";
+"UNDEFINED_EXCEPTION" = "Unable to perform operation. Please, try again later.";
